@@ -1,27 +1,83 @@
 {
   "version": "2.0",
-  "dataset_id": "on003490",
-  "source": "openneuro",
-  "source_id": "ds003490",
+  "pipeline_stage": "enriched",
   "title": "EEG: 3-Stim Auditory Oddball and Rest in Parkinson's",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "James F Cavanagh  jcavanagh@unm.edu": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003490.v1.1.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003490",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003490",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.1.1",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".gitattributes",
+    ".json",
+    ".m",
+    ".mat",
+    ".md",
+    ".set",
+    ".tsv",
+    ".xlsx"
+  ],
+  "description": "This dataset comprises resting-state and auditory oddball task EEG recordings from 25 Parkinson's disease patients and 25 matched healthy controls. Parkinson's patients were assessed twice within a week under both ON and OFF medication conditions, while controls participated in a single session. The study includes concurrent accelerometer recordings from the most tremor-affected hand to capture motor symptoms during the experimental protocol.",
+  "methods_description": "EEG data were collected during resting state (eyes open and eyes closed) and a 3-stimulus auditory oddball task. Participants received instructions for one-minute spans of eyes open or closed conditions preceding the task. Accelerometer data (X, Y, Z dimensions) were simultaneously recorded from the most tremor-affected hand. Data collection occurred circa 2015 at the Cognitive Rhythms and Computation Lab, University of New Mexico.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Parkinson's disease"
+    },
+    {
+      "term": "auditory oddball task"
+    },
+    {
+      "term": "resting state"
+    },
+    {
+      "term": "accelerometry"
+    },
+    {
+      "term": "medication effects"
+    },
+    {
+      "term": "ON/OFF medication"
+    },
+    {
+      "term": "tremor"
+    },
+    {
+      "term": "neurodegenerative disease"
+    },
+    {
+      "term": "motor symptoms"
+    },
+    {
+      "term": "clinical neurophysiology"
+    }
+  ],
+  "source_hash": "9c94c407f82fedb310e2256152e5bfae571364f34a85dfed7d7b13b23a561903"
 }
