@@ -1,27 +1,76 @@
 {
   "version": "2.0",
-  "dataset_id": "on003490",
-  "source": "openneuro",
-  "source_id": "ds003490",
+  "pipeline_stage": "enriched",
   "title": "EEG: 3-Stim Auditory Oddball and Rest in Parkinson's",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "James F Cavanagh  jcavanagh@unm.edu": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003490.v1.1.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003490",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on003490",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.1.1",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "5.84 GB (175 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".gitattributes",
+    ".json",
+    ".m",
+    ".mat",
+    ".md",
+    ".set",
+    ".tsv",
+    ".xlsx",
+    ".yml"
+  ],
+  "description": "This dataset comprises resting-state and 3-stimulus auditory oddball EEG recordings from 25 Parkinson's disease patients and 25 matched healthy controls. Parkinson's patients were tested twice, one week apart, either on or off dopaminergic medication, while controls were tested once. Accelerometer data (X, Y, Z axes) were also recorded from patients' most tremor-affected hand, alongside triggers marking eyes-open and eyes-closed resting periods. Data were collected circa 2015 at the Cognitive Rhythms and Computation Lab, University of New Mexico.",
+  "methods_description": "EEG data were collected during rest (eyes open and eyes closed, one-minute spans marked by triggers) and during a 3-stimulus auditory oddball task programmed in MATLAB. An accelerometer was taped to participants' most tremor-affected hand to record X, Y, Z acceleration throughout the session.",
+  "keywords": [
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Parkinson Disease",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
+    },
+    {
+      "term": "auditory oddball"
+    },
+    {
+      "term": "resting state"
+    },
+    {
+      "term": "tremor"
+    },
+    {
+      "term": "accelerometer"
+    },
+    {
+      "term": "dopaminergic medication status"
+    }
+  ],
+  "source_hash": "ca98dc65666b7f0a387957acc3ad8ba63f84468bd7af26c399a42c183dec4970"
 }
