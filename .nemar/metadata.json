@@ -43,33 +43,37 @@
     ".xlsx",
     ".yml"
   ],
-  "description": "This dataset comprises resting-state and 3-stimulus auditory oddball EEG recordings from 25 Parkinson's disease patients and 25 matched healthy controls. Parkinson's patients were tested twice, one week apart, either on or off dopaminergic medication, while controls were tested once. Accelerometer data (X, Y, Z axes) were also recorded from patients' most tremor-affected hand, alongside triggers marking eyes-open and eyes-closed resting periods. Data were collected circa 2015 at the Cognitive Rhythms and Computation Lab, University of New Mexico.",
-  "methods_description": "EEG data were collected during rest (eyes open and eyes closed, one-minute spans marked by triggers) and during a 3-stimulus auditory oddball task programmed in MATLAB. An accelerometer was taped to participants' most tremor-affected hand to record X, Y, Z acceleration throughout the session.",
+  "description": "This dataset contains resting-state and 3-stimulus auditory oddball EEG recordings from 25 Parkinson's disease patients and 25 matched healthy controls, collected circa 2015 at the Cognitive Rhythms and Computation Lab, University of New Mexico. Parkinson's patients were tested twice, one week apart, either on or off dopaminergic medication, while controls were tested once. Recordings include accelerometer data (X, Y, Z axes) from the most tremor-affected hand, along with triggers marking eyes-open and eyes-closed resting periods.",
+  "methods_description": "EEG was recorded during rest (eyes open and eyes closed, one-minute blocks marked with triggers) and during a 3-stimulus auditory oddball task programmed in MATLAB. An accelerometer was taped to participants' most tremor-affected hand to record X, Y, Z acceleration throughout the session. Parkinson's patients were tested in two sessions one week apart (on or off medication), while controls were tested once.",
   "keywords": [
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
     {
       "term": "Parkinson Disease",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
     },
     {
-      "term": "auditory oddball"
+      "term": "EEG"
+    },
+    {
+      "term": "auditory oddball task"
+    },
+    {
+      "term": "oddball paradigm"
+    },
+    {
+      "term": "ERP"
     },
     {
       "term": "resting state"
     },
     {
-      "term": "tremor"
-    },
-    {
       "term": "accelerometer"
     },
     {
-      "term": "dopaminergic medication status"
+      "term": "tremor"
+    },
+    {
+      "term": "dopaminergic medication"
     }
   ],
   "source_hash": "ca98dc65666b7f0a387957acc3ad8ba63f84468bd7af26c399a42c183dec4970"
