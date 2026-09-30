@@ -1,12 +1,40 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "EEG: 3-Stim Auditory Oddball and Rest in Parkinson's",
+  "description": "EEG recordings from 25 patients with Parkinson's disease and 25 matched controls during resting state (eyes open and eyes closed) and a three-stimulus auditory oddball task. Patients were recorded twice, one week apart, once ON and once OFF dopaminergic medication, while controls were recorded once. Accelerometer data from the most tremor-affected hand are included, along with metadata spreadsheets and code to reproduce the associated paper.",
+  "methods_description": "Data were collected circa 2015 at the Cognitive Rhythms and Computation Lab, University of New Mexico. Participants completed a Matlab-based three-stimulus auditory oddball task, preceded by instructed one-minute eyes-open and eyes-closed resting periods marked by triggers. An accelerometer taped to the most tremor-affected hand recorded X, Y, and Z dimensions throughout. Patients were tested ON and OFF medication in separate sessions.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "James F Cavanagh  jcavanagh@unm.edu": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Parkinson Disease"
+    },
+    {
+      "term": "auditory oddball"
+    },
+    {
+      "term": "resting state"
+    },
+    {
+      "term": "dopaminergic medication"
+    },
+    {
+      "term": "accelerometry"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "tremor"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003490.v1.1.0",
@@ -24,10 +52,10 @@
       "relation_type": "IsDescribedBy"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "5.84 GB (175 files)"
   ],
@@ -42,39 +70,6 @@
     ".tsv",
     ".xlsx",
     ".yml"
-  ],
-  "description": "This dataset contains resting-state and 3-stimulus auditory oddball EEG recordings from 25 Parkinson's disease patients and 25 matched healthy controls, collected circa 2015 at the Cognitive Rhythms and Computation Lab, University of New Mexico. Parkinson's patients were tested twice, one week apart, either on or off dopaminergic medication, while controls were tested once. Recordings include accelerometer data (X, Y, Z axes) from the most tremor-affected hand, along with triggers marking eyes-open and eyes-closed resting periods.",
-  "methods_description": "EEG was recorded during rest (eyes open and eyes closed, one-minute blocks marked with triggers) and during a 3-stimulus auditory oddball task programmed in MATLAB. An accelerometer was taped to participants' most tremor-affected hand to record X, Y, Z acceleration throughout the session. Parkinson's patients were tested in two sessions one week apart (on or off medication), while controls were tested once.",
-  "keywords": [
-    {
-      "term": "Parkinson Disease",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "auditory oddball task"
-    },
-    {
-      "term": "oddball paradigm"
-    },
-    {
-      "term": "ERP"
-    },
-    {
-      "term": "resting state"
-    },
-    {
-      "term": "accelerometer"
-    },
-    {
-      "term": "tremor"
-    },
-    {
-      "term": "dopaminergic medication"
-    }
   ],
   "source_hash": "ca98dc65666b7f0a387957acc3ad8ba63f84468bd7af26c399a42c183dec4970"
 }
